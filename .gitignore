@@ -1,0 +1,28 @@
+# Evita di committare i file di metadati di Mac
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Icone delle cartelle Mac
+Icon
+
+# File creati da Spotlight
+._*
+
+# File di lock di Thumbnails
+Thumbs.db
+
+# Altri file di sistema
+.DS_Store?
+.Trashes
+._*
+.Spotlight-V100
+.Spotlight-*
+.fseventsd
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk

@@ -1,11 +1,93 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Personal Page</title>
+  <meta charset="UTF-8">
+  <meta name='viewport'
+  content='width=device-width, initial-scale=1.0, maximum-scale=1.0' />
+  <title>Emanuele Roberto Di Pietro's Site</title>
+  <meta property="og:title" content="Emanuele Roberto Di Pietro's Portfolio Title">
+  <meta property="og:description" content="Il mio primo sito creato con HTML & CSS. Fungerà da portfolio.">
+  <meta property="og:image" content="/assets/images/cocco.jpg">
+  <meta property="og:type" content="website">
+  <link rel="icon" type="image/x-icon" href="/assets/images/favicon.ico">
+  <link rel="stylesheet" href="/assets/css/styles.css">
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
 </head>
 <body>
-    <h1>Hello World!</h1>
+
+  <nav class="navbar navbar-dark bg-dark sticky-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">Emanuele Roberto Di Pietro           <br> <b>IL MIO SITO</b> </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarText">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/curriculum.html">Curriculum</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/contattami.html">Contattami</a>
+          </li>
+        </ul>
+        <span class="navbar-text">
+          I hope to see you soon!
+        </span>
+      </div>
+    </div>
+  </nav>
+  
+
+
+  <div class="main-content">
+    <div class="photo-grid-container">
+        <div class="photo-grid-item">
+          <img src="/assets/images/cocco.jpg" alt="Praia Vermelha, Rio de Janeiro. Vista su cocco.">
+        </div>
+        <div class="photo-grid-item">
+          <img src="/assets/images/mostri.jpg" alt="Murales di Bogotà.">
+        </div>
+    </div>
+
+    <div class="text-content">
+      <h2> <b>Chi sono</b></h2>
+      <p>Mi chiamo Emanuele Roberto Di Pietro, sono laureato in Agronomia presso l'Università di Bologna (Unibo).
+         Durante il mio percorso universitario, ho avuto l'opportunità di arricchire la mia formazione con esperienze internazionali:
+         ho partecipato a un programma Erasmus in Portogallo e a un programma Overseas in Brasile. Queste esperienze mi hanno permesso di ampliare i miei orizzonti culturali e professionali, migliorando le mie competenze linguistiche e la mia capacità di adattamento a diversi contesti lavorativi.<br><br>
+      
+        Dopo la laurea, ho lavorato presso un bio agriturismo, dove ho potuto coniugare la mia passione per l'agricoltura sostenibile con l'impegno nel servizio civile.
+        Questa esperienza mi ha insegnato l'importanza del lavoro di squadra e del servizio alla comunità.<br><br>
+      
+        Attualmente, ho deciso di intraprendere una nuova sfida come studente di Start2Impact, un percorso formativo dedicato all'acquisizione di competenze digitali.
+        "Nella vita c'è sempre tempo per cambiare rotta: passare dal settore agronomico a quello digitale è la dimostrazione che non è mai troppo tardi per trovare una nuova passione e amare ciò che facciamo."<br><br>
+        Se desideri conoscere meglio il mio percorso professionale, puoi consultare il mio <a class="cv" href="/CV ITA Emanuele Roberto Di Pietro.pdf" download="CV ITA Emanuele Roberto Di Pietro.pdf">Curriculum Vitae.</a><br>
+      
+        Per ulteriori informazioni o per contattarmi direttamente, compila il modulo disponibile <a class="cv" href="contattami.html">qui.</a></p>
+    </div>
+  </div>
+
+  <div class="footer-item">
+    <a href="https://www.facebook.com/emanuele.r.dipietro/" target="_blank">
+      <ion-icon name="logo-facebook" class="social-icon"></ion-icon>
+    </a>
+    <a href="https://www.instagram.com/manu.rdp94/" target="_blank">
+      <ion-icon name="logo-instagram" class="social-icon"></ion-icon>
+    </a>
+    <a href="https://www.linkedin.com/in/emanuele-roberto-di-pietro/" target="_blank">
+      <ion-icon name="logo-linkedin" class="social-icon"></ion-icon>
+    </a>
+    <a href="https://github.com/emasr94/emasr94.github.io" target="_blank">
+      <ion-icon name="logo-github" class="social-icon"></ion-icon>
+    </a>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </body>
 </html>
